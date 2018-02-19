@@ -6,11 +6,6 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "dependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.0",
-    "react-native-navigation": "^1.1.46"
-  },
   "devDependencies": {
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
@@ -19,5 +14,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.53.0",
+    "react-native-navigation": "^1.1.381"
   }
 }
